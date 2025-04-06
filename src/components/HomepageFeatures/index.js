@@ -14,6 +14,22 @@ const FeatureList = [
     ),
   },
   {
+    title: 'Support the docs',
+    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    description: (
+      <>
+        You can either support directly by committing to the docs repo or by
+        donating to the creator of the docs.
+
+        Sending gold, Heros or using the ref "jax" is a huge help!
+        <br />
+        <br />
+        Wallet address:
+        <span className="wallet-address">RPGCo69fqmYwdh48DXLYt5CGfAG5vpWvLeuEhefdgXb</span>
+      </>
+    ),
+  },
+  {
     title: 'Used by analytics tools',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
@@ -22,16 +38,6 @@ const FeatureList = [
         <a href="https://nightvale-analytics.vercel.app">
           Nightvale Analytics
         </a>
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
       </>
     ),
   },

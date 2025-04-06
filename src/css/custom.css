@@ -28,3 +28,18 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+/* Wallet address styling */
+.wallet-address {
+  font-size: 0.8rem;
+  font-family: 'Courier New', monospace;
+  color: var(--ifm-color-primary);
+  background: rgba(212, 166, 87, 0.1);
+  padding: 2px 6px;
+  border-radius: 4px;
+  display: block;
+  margin: 8px auto;
+  max-width: fit-content;
+  word-break: break-all;
+  letter-spacing: 0.5px;
+}
