@@ -4,22 +4,24 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: 'Community Built',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        All apis are directly from the game and are not modified.
+        but fully documented and ready to use by the community.
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: 'Used by analytics tools',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        This docs is currently used by
+        <a href="https://nightvale-analytics.vercel.app">
+          Nightvale Analytics
+        </a>
       </>
     ),
   },
@@ -35,7 +37,7 @@ const FeatureList = [
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
